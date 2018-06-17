@@ -1,0 +1,254 @@
+---
+---
+.cf::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+    font-family: 'futura', 'futura LT', 'Tw Cen Mt', 'Century Gothic', 'Gill sans', sans-serif;
+    color: white;
+    height: 100%;
+    font-size: 100%;
+    font-weight: 400;
+    max-width: 1136px;
+    width: 100%;
+    margin: auto;
+
+    #bg {
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: -9999;
+        background: #0064d4;
+        background: linear-gradient(#0064d4,#00c2c0);
+    }
+
+    #landing {
+        height: 100vh;
+        width: 100%;
+        margin: auto;
+
+        #whoami{
+            position: relative;
+            top: 10px;
+
+            #name {
+                font-size: 240%;
+                line-height: 40%;
+            }
+    
+            #title {
+                font-size: 160%;
+                line-height: 40%;
+            }
+
+            #extra_info {
+                width: 220px;
+                padding: 0;
+                margin: 50px 0 0 0;
+                list-style-type: none;
+                li {
+                    margin: 20px 0;;
+                }
+            }
+
+            #namespace {
+                padding: 20px;
+                width: 250px;
+
+                 #extra_info {
+                     visibility: hidden;
+                }
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+
+            #namespace:hover {
+                 #extra_info {
+                    visibility: visible;
+                }
+            }
+
+        }
+        
+
+
+            #tagline{
+                position: absolute;
+                //top: 0;
+                left: 0;
+                width: 100%;
+                margin: 0 auto;
+                z-index: -9999;
+                /*
+                h2 {
+                    text-align: center;
+                    font-size: 200%;
+                }
+                */
+
+            }
+
+    }
+
+    #menu {
+        float: right;
+        padding: 20px;
+        li {
+            font-size: 1.2em;
+            line-height: 100%;
+            text-align: right;
+            list-style: none;
+            padding: 15px 0 5px;
+            width: 100%;
+            overflow: visible;
+
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+
+        li:hover{
+            border-bottom: 1px solid white
+        }
+       
+    }
+
+    .scroll-down{
+        position: fixed;
+        bottom: 5vh;
+        left: 50%;
+        margin-left: -45px;
+
+    }
+
+    #reel {
+        height: 100vh;
+        width: 1136px;
+        margin: auto;
+        h2 {
+            margin: 40px;
+            text-align: center;
+        }        
+
+        iframe {
+            position: relative;
+            left: 50%;
+            margin-left: -480px;
+        }
+    }
+    
+    #work {
+        width: 1136px;
+        height: 100vh;
+        margin: auto;
+
+        h2{
+            margin: 40px;
+            text-align: center;
+        }
+
+        .portfolio-item {
+            width: 268px;
+            height: 268px;
+            float: left;
+            //background-image: url('/images/covers/luminous_cover.png');
+            background-position: 0% 0%;
+            margin: 8px;
+
+            a {
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+
+        }
+
+        div:hover {
+            background-position: 100% 0%;
+        }
+    }
+footer {
+    width: 1136px;
+    margin: 50px auto;
+    border-top: 1px solid white;
+    padding: 10px;
+
+    .kolom {
+        width: 33%;
+        float: left;
+        text-align: center;
+    }
+    .icon {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+}  
+
+    #pagelanding {
+
+        #whoami{
+
+            #namespace {
+                padding: 20px;
+                width: 250px;
+
+                #extra_info {
+                    visibility: hidden;
+                }
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+
+            #namespace:hover {
+                #extra_info {
+                    visibility: visible;
+                }
+                
+            }
+
+            #name {
+                font-size: 240%;
+                line-height: 40%;
+            }
+
+            #title {
+                font-size: 160%;
+                line-height: 40%;
+            }
+
+        }
+
+        .pagecontent {
+            width: 1136px;
+            margin: auto;
+
+            .title {
+                width: 100%;
+                text-align: center;
+            }
+
+            .content iframe{
+                width: 100%;
+                margin: auto;
+            }
+            .content .textbox {
+                width: 720px;
+                margin: auto;
+            }
+        }
+
+    }
+
+}

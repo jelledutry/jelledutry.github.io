@@ -1,0 +1,17 @@
+docs_list_title: Navigation
+docs:
+
+- title: about me
+  url: about-me
+
+- title: work
+  url: work
+
+- title: contact
+  url: contact
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+{% include header.html %}
+
+<div id="bg"></div>
+<div id="pagelanding" class="cf">
+    <div id="whoami">
+        <div id="namespace">
+                <h1 id="name"><a href="{{site.url}}">jelle dutry</a></h1>
+                <h2 id="title">motiondesigner</h2>
+                <p id="extra_info">Jelle Dutry<br>
+                        07/07/1995<br>
+                        9860 Scheldewindeke<br>
+                        Beetje random info over mezelf</p>
+        </div>
+        
+    </div>
+
+    <div class='pagecontent cf'>
+        <div class="title">
+            <h2>{{page.title}}<span></span></h2>
+        </div>
+        <div class="content">
+        {{ page.content }}
+        </div>
+    </div>
+
+</div>
+
+    
+
+{% include footer.html %}

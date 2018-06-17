@@ -1,0 +1,18 @@
+---
+title: Work
+permalink: /work/index.html
+---
+{% include header.html %}
+
+{% for item in site.work %}
+<div class="title">
+    <h2>{{item.title}}<span></span></h2>
+ </div>
+ <div class="content">
+        <img id={{item.videoId}} class="thumbnail">
+ 
+ </div>
+{% endfor %}
+
+
+{% include footer.html %}
