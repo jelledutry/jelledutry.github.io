@@ -6,7 +6,7 @@ window.onload = function() {
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: '/images/tagline.json' // the path to the animation json
+        path: '/images/tagline5.json' // the path to the animation json
     });
 
 // TAGLINE POSITIE
