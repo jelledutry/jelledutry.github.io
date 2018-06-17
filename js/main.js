@@ -3,7 +3,7 @@ window.onload = function() {
 // TAGLINE ANIMATIE
     var anim = lottie.loadAnimation({
         container: document.getElementById('tagline'), // the dom element that will contain the animation
-        renderer: 'svg',
+        renderer: 'canvas',
         loop: true,
         autoplay: true,
         path: '/images/tagline5.json' // the path to the animation json
