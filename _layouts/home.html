@@ -14,8 +14,8 @@
 <div id="landing" class="cf">
         <div id="whoami">
                 <div id="namespace">
-                        <h1 id="name"><a href="{{site.url}}">jelle dutry</a></h1>
-                        <h2 id="title">motiondesigner</h2>
+                        <h1 id="name"><a href="{{site.url}}/">jelle dutry</a></h1>
+                        <h2 id="title"><a href="{{site.url}}/">motiondesigner</a></h2>
                         <ul id="extra_info">
                                 <li>Jelle Dutry</li>
                                 <li>07/07/1995</li>
@@ -40,7 +40,7 @@
         </div>
 </div>
 
-<div class="scroll-down">
+<div id="scroll-down">
         <a href="#reel"><img src="images/scroll_06.gif"></a>
 </div>
 
@@ -50,13 +50,19 @@
         <iframe src="https://player.vimeo.com/video/254678863" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
-<div id="work">
+<div id="work" class="cf">
         <h2>my work</h2>
         {% for item in site.work %}
-        <div class="portfolio-item cf" style="background-image: url('{{item.cover}}')">
-                <a  href="{{site.url}}{{ item.url }}"></a>
+        <div class="portfolio-item cf" style="background-image: url('{{item.cover}}')" onclick="window.location.replace('{{site.url}}{{ item.url }}')">
+                <!--<a  href="{{site.url}}{{ item.url }}"></a>-->
         </div>
         {% endfor %}
+</div>
+
+<div id="contact" class="cf">
+        <h2>contact</h2>
+        <p id="emailP"></p>
+
 </div>
 
 
