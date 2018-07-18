@@ -8,13 +8,7 @@ hover: /images/covers/genesis_hover.png
 <iframe src="https://player.vimeo.com/video/194089506" width="760" height="430" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="main-video"></iframe>
 
 <div class= "textbox">
-    <p>Dit was een animatie voor het vak 2D Motiongraphics</p>
-
-    <p>De opdracht was om met slechts 8 vastgelegde vormen een animatie van 1 minuut te maken.</p>
-
-    <p>Ik heb ervoor gekozen om het begin van ons leven af te beelden.
-    </p>
-
-    <p>Muziek: Moderat - This Time
-    </p>
+    <p>This was an exercise for my 2D Motiongrapics course.</p>
+    <p>We were only given 8 different shapes that we could use. I chose to depict the beginning and ending of life.</p>
+    <p>Music: This Time by Moderat</p>
 </div>

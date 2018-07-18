@@ -8,13 +8,13 @@ hover: /images/covers/luminous_hover.png
 <iframe src="https://player.vimeo.com/video/250030417" width="760" height="430" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="main-video"></iframe>
 
 <div class= "textbox">
-    <p>Dit was mijn eindwerk voor het vak Audiovisual Arts & Productions IV. </p>
 
-    <p>Het is een kleine aanklacht tegen het feit dat we voortdurend bereikbaar moeten zijn.</p>
+    <p>This was my final exercise for the course Audiovisual Arts and Productions.</p>
 
-    <p>De focus van deze video was het licht. Ik wou het verhaal vertellen zonder veel beweging. Enkel het licht verandert en glijdt doorheen het beeld. Dit was zowel narratief als technisch een uitdaging.
-    </p>
+    <p>It is a kind of complaint against the need for constant connection.</p>
 
-    <p>Het volledige filmpje is van mijn hand, zowel audio als video.
-    </p>
+    <p>The focus of this video was the light. I tried to tell the story with as little movement as possible. Only the light is constantly changing and slips across the screen.</p>
+
+    <p>The whole video is made by me, the illustrations animations and audio.</p>
+
 </div>

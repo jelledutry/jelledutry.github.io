@@ -1,20 +1,13 @@
 ---
 layout: page
-title: G E N E S I S
-videoId: 194089506
+title: Internet of Things
 cover: /images/covers/iot_cover.png
 hover: /images/hovers/iot_hover.png
 ---
-<iframe src="https://player.vimeo.com/video/194089506" width="760" height="430" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="main-video"></iframe>
+<iframe src="https://player.vimeo.com/video/190486730" width="760" height="430" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="main-video"></iframe>
 
 <div class= "textbox">
-    <p>Dit was een animatie voor het vak 2D Motiongraphics</p>
-
-    <p>De opdracht was om met slechts 8 vastgelegde vormen een animatie van 1 minuut te maken.</p>
-
-    <p>Ik heb ervoor gekozen om het begin van ons leven af te beelden.
-    </p>
-
-    <p>Muziek: Moderat - This Time
-    </p>
+    <p>I animated an existing infographic about the Internet of Things.</p>
+    <p>The artwork already existed, I did the animations.</p>
+    <p>Music: Flake by Jameszoo</p>
 </div>

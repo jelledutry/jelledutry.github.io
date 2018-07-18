@@ -60,12 +60,12 @@ function menuClick() {
     
     var menuBtn = document.getElementById('menuBtn');
     var menuItems = document.getElementById('menu-items');
-    menuBtn.style.visibility = "hidden";
+    menuBtn.style.opacity = 0.5;
     menuItems.style.visibility = "visible";
 
 
     setTimeout(function() {
-        menuBtn.style.visibility = "visible";
+        menuBtn.style.opacity = 1;
         menuItems.style.visibility = "hidden";
       }, 4000);
 }

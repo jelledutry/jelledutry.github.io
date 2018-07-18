@@ -60,10 +60,9 @@ body {
                 }
 
                 @media only screen and (max-width: 680px) {
-                    position: unset;
                     margin: auto;
                     width: 100%;
-                    padding: 0;
+                    padding: 20px;
                     text-align: center;
                 }
 
@@ -81,6 +80,12 @@ body {
         img {
             width: 50px;
             float: right;
+        }
+
+        @media only screen and (max-width: 550px) {
+            img {
+                width: 30px;
+            }
         }
 
         //float: right;
@@ -222,20 +227,10 @@ footer {
                 padding: 20px;
                 width: 250px;
 
-                #extra_info {
-                    display:none;
-                }
                 a {
                     color: white;
                     text-decoration: none;
                 }
-            }
-
-            #namespace:hover {
-                #extra_info {
-                    display: block;
-                }
-                
             }
 
             #name {
@@ -268,6 +263,31 @@ footer {
                 margin: auto;
             }
         }
+
+    }
+
+    #about {
+        width: 100%;
+        margin: auto;
+        h2 {
+            margin: 40px;
+            text-align: center;
+        }
+        
+        ul {
+            width: 60%;
+            margin: auto;
+
+            @media only screen and (max-width: 680px) {
+                width: 80%;;
+            }
+        }
+
+        li {
+            list-style: none;
+            margin: 10px 0;
+        }
+
 
     }
 

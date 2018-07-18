@@ -1,20 +1,13 @@
 ---
 layout: page
 title: Lucid Nightmare
-videoId: 194089506
 cover: /images/covers/lucid_cover.png
 hover: /images/covers/lucid_hover.png
 ---
-<iframe src="https://player.vimeo.com/video/194089506" width="760" height="430" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="main-video"></iframe>
+<iframe src="https://player.vimeo.com/video/126717927" width="760" height="430" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="main-video"></iframe>
 
 <div class= "textbox">
-    <p>Dit was een animatie voor het vak 2D Motiongraphics</p>
-
-    <p>De opdracht was om met slechts 8 vastgelegde vormen een animatie van 1 minuut te maken.</p>
-
-    <p>Ik heb ervoor gekozen om het begin van ons leven af te beelden.
-    </p>
-
-    <p>Muziek: Moderat - This Time
-    </p>
+    <p>A stopmotion video about a nightmare.</p>
+    <p>I chose a highly stylised look to create a disturbing feeling. The film consists of multiple layers of pictures of drawings on my wall.</p>
+    <p>Music: Construction Deconstruction by Lapalux</p>
 </div>
