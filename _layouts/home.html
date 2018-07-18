@@ -3,10 +3,12 @@
 <div id="bg"></div>
 
 <div class="cf" id="menu">
-        <ul>
+        <img src="images/menu-icon.png" id="menuBtn" onclick="menuClick()">
+        <ul id="menu-items">
                 <li><a href="#landing">top</a></li>
                 <li><a href="#reel">reel</a></li>
                 <li><a href="#work">work</a></li>
+                <li><a href="#about">about</a></li>
                 <li><a href="#contact">contact</a></li>
         </ul>
 </div>
@@ -15,28 +17,11 @@
         <div id="whoami">
                 <div id="namespace">
                         <h1 id="name"><a href="{{site.url}}/">jelle dutry</a></h1>
-                        <h2 id="title"><a href="{{site.url}}/">motiondesigner</a></h2>
-                        <ul id="extra_info">
-                                <li>Jelle Dutry</li>
-                                <li>07/07/1995</li>
-                                <li>Scheldewindeke</li>
-                                <li>Belgium</li>
-                                <li><i>Motiondesign, live-visuals, projectionmapping, animation</i></li>
-                                <li>Ik heb Grafische en Digitale media gestudeerd aan de Artevelde Hogeschool in Mariakerke. 
-                                        Ik heb mij daarin toegespitst op motiongraphics en motiondesign. <br>Ik maak hoofdzakelijk korte
-                                        videos met allerlei functies. Dit gaat van muziekvideos, live-visuals tot reclamefilmpjes. 
-                                        Heb je interesse in mijn werk, laat dan zeker iets van je horen en dan bespreken we de details.
-                                </li>
-                        </ul>
-                       
+                        <h2 id="title"><a href="{{site.url}}/">motiondesigner</a></h2>                     
                 </div>
                 
         </div>
         <div id="tagline">
-                <!--<h2>I design and animate short videos</h2>-->
-                <script>
-
-                </script>
         </div>
 </div>
 
@@ -46,7 +31,7 @@
 
 
 <div id="reel" class="cf">
-        <h2>r e e l</h2>
+        <h2>reel</h2>
         <iframe src="https://player.vimeo.com/video/254678863" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
@@ -59,9 +44,43 @@
         {% endfor %}
 </div>
 
+<div id="about" class="cf">
+        <h2>about</h2>
+        <ul>
+                <li>Jelle Dutry</li>
+                <li>07/07/1995</li>
+                <li>Scheldewindeke</li>
+                <li>Belgium</li>
+                <li><i>Motiondesign, live-visuals, projectionmapping, animation</i></li>
+                <li>Ik heb Grafische en Digitale media gestudeerd aan de Artevelde Hogeschool in Mariakerke. 
+                        Ik heb mij daarin toegespitst op motiongraphics en motiondesign. <br>Ik maak hoofdzakelijk korte
+                        videos met allerlei functies. Dit gaat van muziekvideos, live-visuals tot reclamefilmpjes. 
+                        Heb je interesse in mijn werk, laat dan zeker iets van je horen en dan bespreken we de details.
+                </li>
+        </ul>
+
+</div>
+
 <div id="contact" class="cf">
         <h2>contact</h2>
-        <p id="emailP"></p>
+        <p>Holla at ya boy!</p>
+        <div id="contactBox" class="cf">
+                <form id="emailP" name="contactForm"  onsubmit="return validateForm()"
+                method="POST">
+                        <input type="text" name="name" placeholder="Name">
+                        <textarea name="message" placeholder="Your message ..."></textarea>
+                        <input type="text" name="sCheck" style="display: none">
+                        <input type="email" name="_replyto" placeholder="E-mail" required> 
+                        <input type="submit" value="Holla!">
+                </form> 
+                <ul>
+                        <li><h3>contact details</h3></li>
+                        <li id="emailItem"></li>
+                        <li>(+32) 0479 12 93 40</li>
+                        <li><a href="https://vimeo.com/jelledutry">vimeo.com/jelledutry</a></li>
+                        
+                </ul>
+        </div>
 
 </div>
 
