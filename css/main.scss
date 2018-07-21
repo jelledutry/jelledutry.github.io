@@ -16,6 +16,7 @@ body {
     max-width: 1136px;
     width: 100%;
     margin: auto;
+    background: #0064d4;
 
     #bg {
         height: 100vh;
@@ -48,7 +49,7 @@ body {
             }
 
             #namespace {
-                padding: 20px;
+                padding: 20px 0;
                 width: 270px;
 
                  #extra_info {
@@ -62,7 +63,7 @@ body {
                 @media only screen and (max-width: 680px) {
                     margin: auto;
                     width: 100%;
-                    padding: 20px;
+                    padding: 20px 0;
                     text-align: center;
                 }
 
@@ -92,10 +93,14 @@ body {
         padding: 0 10px 0 0;
         position: fixed;
         right: 0;
+        top: 5vh;
         z-index: 1000;
 
         ul {
             visibility: hidden;
+            padding: 10px;
+            border-radius: 5px;
+            background: linear-gradient(#0064d4,#00c2c0);
         }
 
 
@@ -224,12 +229,20 @@ footer {
         #whoami{
 
             #namespace {
-                padding: 20px;
+                padding: 20px 0;
                 width: 250px;
 
                 a {
                     color: white;
                     text-decoration: none;
+                }
+
+                
+                @media only screen and (max-width: 680px) {
+                    margin: auto;
+                    width: 100%;
+                    padding: 20px 0;
+                    text-align: center;
                 }
             }
 
@@ -259,7 +272,8 @@ footer {
                 margin: auto;
             }
             .content .textbox {
-                width: 720px;
+                width: 70%;
+                max-width: 720px;
                 margin: auto;
             }
         }
@@ -353,6 +367,7 @@ footer {
             form {
                 float: none;
                 width: 90%;
+                padding: 20px 0;
             }
 
             form input {
