@@ -1,20 +1,16 @@
 ---
+layout: page
+title: Page not found
+permalink: /404.html
 ---
-{% include header.html %}
-<div id="bg"></div>
-<div id="pagelanding" class="cf">
-    <div id="whoami">
-        <div id="namespace">
-                <h1 id="name"><a href="{{site.url}}">jelle dutry</a></h1>
-                <h2 id="title">motiondesigner</h2>
-
-        </div>
-        
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
+      <div class="error">
+        <h2 class="error__title">404</h2>
+        <p class="error__text">The requested page could not be found.</p>
+        <a class="button" href="{{site.baseurl}}/">Back to homepage</a>
+      </div>
     </div>
-
-  <!--<h1>404</h1>-->
-  <img class="page404" src="images/404.gif" alt="404 Page not found">
-  <!--<p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>-->
+  </div>
 </div>
-{% include footer.html%}

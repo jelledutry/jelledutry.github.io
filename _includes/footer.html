@@ -1,17 +1,31 @@
-<footer class="cf">
-    
-    <div class="kolom">
-        © Jelle Dutry 2018<br>      
+<!-- begin footer -->
+<footer class="footer">
+
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+
+        <div class="footer__inner">
+          {% if site.data.settings.social %}
+            <div class="social">
+              <ul class="social__list list-reset">
+                {% for social in site.data.settings.social %}
+                  <li class="social__item">
+                    <a class="social__link" href="{{social.link}}" target="_blank" rel="noopener" aria-label="{{social.label}} link"><i class="ion {{social.icon}}" style="color: {{social.color}};"></i> {{social.label}}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endif %}
+        </div>
+
+        <div class="footer__info">
+          <div class="copyright">{{site.time | date: '%Y'}} &copy; <a href="/">{{site.data.settings.title}}</a></div>
+        </div>
+
+      </div>
     </div>
-    <div class="kolom">
-        <p></p>
-    </div>
-    <div class="kolom">
-        <a href="https://vimeo.com/jelledutry"><img src="/images/vimeo.png" class="icon"></a>
-        <a href="mailto:jelle.dutry@gmail.com"><img src="/images/mail.png" class="icon"></a>
-    </div>
+  </div>
+
 </footer>
-
-</div> <!--end container div-->
-
-</body>
+<!-- end footer -->

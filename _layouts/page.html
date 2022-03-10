@@ -1,27 +1,37 @@
-{% include header.html %}
+---
+layout: default
+---
 
-<div id="bg"></div>
-<div id="pagelanding" class="cf">
-    <div id="whoami">
-        <div id="namespace">
-                <h1 id="name"><a href="{{site.url}}">jelle dutry</a></h1>
-                <h2 id="title">motiondesigner</h2>
-
-        </div>
-        
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
+      <div class="page__info">
+        <h1 class="page__title">{{ page.title | escape }}</h1>
+      </div>
     </div>
-
-    <div class='pagecontent cf'>
-        <div class="title">
-            <h2>{{page.title}}<span></span></h2>
-        </div>
-        <div class="content">
-        {{ page.content }}
-        </div>
-    </div>
-
+  </div>
 </div>
 
-    
+<!-- begin page -->
+<div class="container animate">
 
-{% include footer.html %}
+  {% if page.image %}
+  <div class="row">
+    <div class="col col-12">
+      <div class="page-image">
+        <img src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
+      </div>
+    </div>
+  </div>
+  {% endif %}
+
+  <article class="page">
+    <div class="page__content">
+      {{ content }}
+    </div>
+  </article>
+
+</div>
+<!-- end page -->
+
+<!--{% include section-subscribe.html %}-->

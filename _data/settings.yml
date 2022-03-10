@@ -1,0 +1,96 @@
+#-------------------------------
+# Site Settings
+title: Jelle Dutry
+logo: /images/LogoAnimation.gif
+author: Jelle Dutry
+description: Jelle Dutry is a motiondesigner based in Ghent, Belgium.
+
+
+#-------------------------------
+# Menu Settings
+menu__settings:
+  menu__items:
+    - title: 'Home'
+      url: '/'
+    - title: 'About'
+      url: '/about/'
+    - title: 'Contact'
+      url: '/contact/'
+
+
+#-------------------------------
+# Hero Settings
+hero:
+  hero__title: Hey, I'm Jelle!
+  hero__description: A motiondesigner based in Ghent. <br> I like my designs clean and basic, but my animation quirky and weird.<br> Or... was it the other way around?
+
+
+#-------------------------------
+# Portfolio Settings
+portfolio:
+  portfolio__title: My Work
+  portfolio__gallery:
+    - image: /images/LogoAnimation.jpg
+      title: Logo Animation
+      link: /work/LogoAnimation/
+      
+    - image: /images/Surfer.jpg
+      title: Surfer Girl
+      link: /work/Surfer-Girl/
+
+    - image: /images/SkateLoop.jpg
+      title: Skate Loop
+      link: /work/SkateLoop/
+
+    - image: /images/luminous_thumbnail.jpg
+      title: l u m i n o u s
+      link: /work/luminous/
+
+    - image: /images/magneetkrab_thumbnail.jpg
+      title: Magneetkrab
+      link: /work/magneetkrab/
+  
+    - image: /images/Delvita_Thumbnail.jpg
+      title: DelVita - Abyss
+      link: /work/delvita/
+
+
+#-------------------------------
+# Subscribe Settings
+# mailchimp:
+  # mailchimp__title: Get updates and digital art inspiration # Add your Title
+  # mailchimp__identifier: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+  # mailchimp__button__text: Subscribe # Add your button text.
+  # mailchimp__bg__color: "#f2eef8" # To change the color of the figure, add a hexadecimal color code (HEX). For example - "#f2eef8" (You can generate any color here - https://htmlcolorcodes.com/).
+# Uncomment to enable
+
+#-------------------------------
+# Footer Settings
+social:
+  - {icon: "ion-logo-vimeo", color: var(--blue) , link: "https://vimeo.com/jelledutry"}
+  - {icon: "ion-logo-instagram", color: var(--pink) , link: "https://www.instagram.com/jelledutry/"}
+
+
+# Example of adding a new link to the footer section - {icon: "ion-logo-github", color: "#24292e, label: Github, link: "https://github.com"}
+# Other icons can be found at https://ionicons.com/v4/
+
+
+#-------------------------------
+# Contact Settings
+contact:
+  email: jelle.dutry@gmail.com # Add your email for contact form
+  description: Do you have a project? A question? Just a hello? Please let me know! # Add a description of your form.
+
+# NOTE
+# Clancy comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
+
+
+#-------------------------------
+# Comment Section (Disqus)
+
+disqus-identifier: # add your shortname for Disqus Comment. For example anvodstudio-demo
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your identifier. For example UA-99631805-1.
