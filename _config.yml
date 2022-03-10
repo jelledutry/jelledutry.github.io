@@ -26,9 +26,9 @@ defaults:
     values:
       permalink: /blog/:slug
   - scope:
-      path: 'work'
+      path: '_work'
     values:
-      permalink: /work/:slug
+      permalink: /_work/:slug
 
 include:
   - _pages
