@@ -32,11 +32,11 @@ portfolio:
   portfolio__gallery:
     - image: /images/LogoAnimation.jpg
       title: Logo Animation
-      link: /work/LogoAnimation/
+      link: /_work/LogoAnimation/
       
     - image: /images/Surfer.jpg
       title: Surfer Girl
-      link: /work/Surfer-Girl/
+      link: /_work/Surfer-Girl/
 
     - image: /images/SkateLoop.jpg
       title: Skate Loop
