@@ -16,19 +16,18 @@ paginate: 9
 paginate_path: "/_posts/page:num"
 
 # Pages Path
-defaults:
-  - scope:
-      path: '_pages'
-    values:
-      permalink: /:basename:output_ext
-  - scope:
-      path: '_posts'
-    values:
-      permalink: /blog/:slug
-  - scope:
-      path: '_work'
-    values:
-      permalink: /work/:slug
+# defaults:
+#  - scope:
+#      path: '_pages'
+#    values:
+#      permalink: /:basename:output_ext
+#  - scope:
+#      path: '_posts'
+#    values:
+#      permalink: /blog/:slug
+
+permalink: /:categroies/:slug:output_ext
+
 
 
 include:
