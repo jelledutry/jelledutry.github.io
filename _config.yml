@@ -32,6 +32,7 @@ defaults:
 
 include:
   - _pages
+  - _work
 
 sass:
   sass_dir: _sass
