@@ -3,6 +3,7 @@ layout: work
 title:  magneetkrab
 date:   2017-12-10 12:00:00 +0100
 image: /images/magneetkrab_thumbnail.jpg
+permalink: /work/magneetkrab/
 ---
 
 <p><iframe src="https://player.vimeo.com/video/246681445" width="720" height="405" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></p>
