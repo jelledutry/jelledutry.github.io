@@ -3,6 +3,8 @@ layout: work
 title: Jelle Logo
 date:   2022-03-06 14:00:00 +0100
 image: /images/LogoAnimation.jpg
+permalink: /work/logoanimation/
+
 ---
 
 <p align="center">

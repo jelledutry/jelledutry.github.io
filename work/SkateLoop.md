@@ -3,6 +3,7 @@ layout: work
 title:  Skate Loop
 date:   2022-03-06 12:00:00 +0100
 image: /images/SkateLoop.jpg
+permalink: /work/skateloop/
 ---
 
 <p><iframe src="https://player.vimeo.com/video/558775577?h=5915cdaf8e" width="640" height="640" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></p>

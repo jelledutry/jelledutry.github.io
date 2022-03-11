@@ -3,6 +3,7 @@ layout: work
 title:  l u m i n o u s
 date:   2018-01-07 12:00:00 +0100
 image: /images/luminous_thumbnail.jpg
+permalink: /work/luminous/
 ---
 
 <p><iframe src="https://player.vimeo.com/video/250030417" width="720" height="405" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></p>

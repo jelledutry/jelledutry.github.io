@@ -3,6 +3,7 @@ layout: work
 title:  🌊🤙
 date:   2021-05-31 12:00:00 +0100
 image: /images/SurferGirl.jpg
+permalink: /work/surfergirl/
 ---
 
 <p><iframe src="https://player.vimeo.com/video/558779155?h=5915cdaf8e" width="640" height="800" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></p>

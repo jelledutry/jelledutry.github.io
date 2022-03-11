@@ -3,6 +3,7 @@ layout: work
 title: DelVita - Abyss
 date:   2017-10-13 12:00:00 +0100
 image: /images/Delvita_Thumbnail.jpg
+permalink: /work/delvita/
 ---
 
 

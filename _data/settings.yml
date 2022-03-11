@@ -32,15 +32,15 @@ portfolio:
   portfolio__gallery:
     - image: /images/LogoAnimation.jpg
       title: Logo Animation
-      link: /_work/LogoAnimation/
+      link: /work/logoanimation/
       
     - image: /images/Surfer.jpg
       title: Surfer Girl
-      link: /_work/Surfer-Girl/
+      link: /work/surfergirl/
 
     - image: /images/SkateLoop.jpg
       title: Skate Loop
-      link: /work/SkateLoop/
+      link: /work/skateloop/
 
     - image: /images/luminous_thumbnail.jpg
       title: l u m i n o u s
