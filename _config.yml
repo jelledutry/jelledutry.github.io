@@ -26,9 +26,6 @@ defaults:
     values:
       permalink: /blog/:slug
 
-collections:
-  work:
-  output: true
 
 include:
   - _pages
