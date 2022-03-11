@@ -32,7 +32,7 @@ permalink: /:categroies/:slug:output_ext
 
 include:
   - _pages
-  - _work
+  - work
 
 sass:
   sass_dir: _sass
