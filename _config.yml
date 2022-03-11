@@ -25,6 +25,10 @@ defaults:
       path: '_posts'
     values:
       permalink: /blog/:slug
+  - scope:
+      path: '_work'
+    values:
+      permalink: /work/:slug
 
 
 include:
