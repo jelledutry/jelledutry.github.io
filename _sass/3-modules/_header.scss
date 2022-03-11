@@ -34,6 +34,13 @@
 
 .logo__image {
   max-height: 120px;
+
+  @media only screen and (max-width: $tablet) {
+    width: 90px;
+  }
+  @media only screen and (max-width: $mobile) {
+    width: 60px;
+  }
 }
 
 /* Nav */

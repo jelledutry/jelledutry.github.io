@@ -8,7 +8,7 @@ permalink: /work/logoanimation/
 ---
 
 <p align="center">
-<video width="600" height="600" frameborder="0" autoplay muted loop class="post img">
+<video width="600" height="600" frameborder="0" autoplay muted loop class="post video">
   <source src="/images/Jelle_Logo_Flat_small.mp4" type="video/mp4">
 </video>
 </p>
@@ -17,13 +17,13 @@ This was the original logo animation I made in After Effects. But I wanted to se
 Below are some experimentations/variations I came u with.
 
 <p align="center" >
-  <video width="600" height="600" frameborder="0" autoplay muted loop class="post img" style="margin:10px">
+  <video width="600" height="600" frameborder="0" autoplay muted loop class="post" style="margin:10px">
     <source src="/images/Jelle_Logo_GlassColors_small.mp4" type="video/mp4">
   </video> 
-  <video width="600" height="600" frameborder="0" autoplay muted loop class="post img" style="margin:10px">
+  <video width="600" height="600" frameborder="0" autoplay muted loop class="post" style="margin:10px">
     <source src="/images/Jelle_Logo_GlassParticles_small.mp4" type="video/mp4">
   </video> 
-  <video width="600" height="600" frameborder="0" autoplay muted loop class="post img" style="margin:10px">
+  <video width="600" height="600" frameborder="0" autoplay muted loop class="post" style="margin:10px">
     <source src="/images/Jelle_Logo_GlassLines_small.mp4" type="video/mp4">
   </video>
 </p>

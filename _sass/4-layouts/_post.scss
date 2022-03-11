@@ -28,6 +28,11 @@
     border: none;
     text-decoration: none;
   }
+
+  video {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 .post__info,
