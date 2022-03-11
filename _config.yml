@@ -30,6 +30,10 @@ defaults:
     values:
       permalink: /_work/:slug
 
+collections:
+  work:
+  output: true
+
 include:
   - _pages
   - _work
