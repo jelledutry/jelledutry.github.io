@@ -13,8 +13,9 @@ permalink: /work/logoanimation/
 </video>
 </p>
 
-This was the original logo animation I made in After Effects. But I wanted to see it in 3D, both as practice and out of curiousity!  
-Below are some experimentations/variations I came u with.
+This was the original logo animation I made in After Effects.  
+But I wanted to see it in 3D, both as practice and out of curiousity!  
+Below are some experimentations/variations I came up with.
 
 <p align="center" >
   <video width="600" height="600" frameborder="0" autoplay muted loop class="post" style="margin:10px">

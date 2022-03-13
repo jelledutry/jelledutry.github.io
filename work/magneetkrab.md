@@ -10,7 +10,7 @@ permalink: /work/magneetkrab/
 
 This cute little crab was created for a school assignment. We had to integrate a 3D object in some filmed footage.  
 
-I got a bit ambitious and wanted to create a 3D character. Without any 3D animation experience or any notion of rigging I created this fella. This first animation attempt below explains the struggle better then I ever could.
+I got a bit ambitious and wanted to create a 3D character. Without any 3D animation experience or any notion of rigging I created this fella. The first animation attempt, below, explains the struggle better then I ever could.
 <p align="center" >
   <video width="600" height="338" frameborder="0" autoplay muted loop class="post img">
     <source src="/images/magneetkrab_animatie_1.mp4" type="video/mp4">
